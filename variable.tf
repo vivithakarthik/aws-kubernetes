@@ -1,5 +1,5 @@
 variable "region" {
-  default     = "us-east-1"
+  default     = "ap-south-1"
   description = "AWS region for hosting our your network"
 }
 
