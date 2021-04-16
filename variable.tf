@@ -1,5 +1,5 @@
 variable "region" {
-  default     = "ap-south-1"
+  default     = "eu-west-2"
   description = "AWS region for hosting our your network"
 }
 
@@ -21,7 +21,7 @@ variable "available_zone" {
 }
 
 variable "bastion_ami" {
-  default = "ami-0db0b3ab7df22e366"
+  default = "ami-0244a5621d426859b"
 }
 variable "instance_count" {
   default = "2"

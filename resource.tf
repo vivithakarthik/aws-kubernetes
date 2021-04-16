@@ -66,7 +66,7 @@ resource "aws_key_pair" "key" {
 }
 
 resource "aws_instance" "instance" {
-  ami                         = "ami-0db0b3ab7df22e366"
+  ami                         = "ami-0244a5621d426859b"
   availability_zone           = "${var.region}${var.available_zone}"
   instance_type               = "t2.medium"
   key_name                    = "${aws_key_pair.key.key_name}"
